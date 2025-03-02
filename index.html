@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding and responsive viewport setup -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon and stylesheet links -->
+    <link rel="icon" type="image/x-icon" href="/images/profile.jpg">
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    <!-- Google Fonts preconnect and stylesheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Page title -->
+    <title>Alfred Shyam | Portfolio</title>
+</head>
+<body class="container">
+    <!-- Header section containing navigation -->
+    <header>
+        <nav class="navbar">
+            <!-- Logo with styled spans -->
+            <h1 class="logo"><span>AllAbout</span><span class="highlight">AL</span></h1>
+            
+            <!-- Navigation menu -->
+             <div class="nav">
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+    
+                </ul>
+                <img src="/hamburger-menu-more-svgrepo-com.svg" id="hamburger" width="30px"/>
+             </div>
+       
+        </nav>
+    </header>
+
+    <!-- Main content wrapper -->
+    <main>
+        <!-- About section -->
+        <section id="about-me" class="section about">
+            <div class="about-container">
+                <!-- Profile image container -->
+                <div class="about-image">
+                    <img src="/images/profile.jpg" alt="Alfred Shyam Profile Picture">
+                </div>
+                
+                <!-- About text content -->
+                <div class="about-text">
+                    <h2>Hi, I'm Alfred Shyam</h2>
+                    <p>I'm a passionate web developer who loves <br>learning and pushing limits to be the best.</p>
+                    <button class="btn">Get in Touch</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section id="projects" class="section projects">
+            <h2>Witness My Creations</h2>
+            <div class="project-container">
+                <!-- Individual project cards -->
+                <article class="project-card">
+                    <h3>Netflix Clone</h3>
+                    <img src="/images/Netflix_clone_1_bi6xga.webp" alt="Netflix Clone">
+                    <p>A Netflix-inspired project featuring user authentication and dynamic content.</p>
+                </article>
+
+                <article class="project-card">
+                    <h3>E-commerce App</h3>
+                    <img src="/images/Ecommerce-app-with-React (1).webp" alt="E-commerce App">
+                    <p>A fully functional e-commerce platform with a shopping cart and admin panel.</p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Chat Application</h3>
+                    <img src="/images/chatapp.webp" alt="Chat Application">
+                    <p>Real-time chat application built with WebSockets and user authentication.</p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Dashboard App</h3>
+                    <img src="/images/dashboard.webp" alt="Dashboard App">
+                    <p>Admin dashboard with analytics and user management.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="section-contact">
+            <div class="contact-container">
+                <h2 >Let's Collaborate</h2>
+                
+                <!-- Contact form -->
+                <form action="submit" method="POST" class="contact-form">
+                    <!-- Name input field -->
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    <!-- Email input field -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                    <!-- Message textarea -->
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+
+                    <!-- Submit button -->
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>© 2025 Alfred Shyam. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
